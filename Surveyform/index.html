@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    
+</body>
+</html>
+<div class="container">
+    <header class="header">
+  
+      <h1 id="title" class="text-center"> freeCodeCamp Survey Form Project </h1>
+  
+      <p id="description" class="text-center description"> This survey is intended for feedback on the <q> Survey Form
+        </q> Project for FCC. </p>
+  
+    </header>
+  
+    <div class="text-center container">
+      <form id="survey-form">
+  
+        <label id="name-label" for="name" class="boldText">Name</label>
+        <input id="name" name="name" type="text" placeholder="Enter Your Name" required />
+  
+        <br>
+        <br>
+        <label id="email-label" for="email" class="boldText">Email</label>
+        <input id="email" name="email" type="email" placeholder="Enter Your Email" required />
+        <br>
+        <br>
+        <label id="number-label" for="number" class="boldText"> Age (Optional)</label>
+        <input id="number" type="number" name="age" min="10" max="99" placeholder="Age" />
+  
+        <br>
+  
+        <p class="boldText">Which option best describes your current role?</p>
+  
+        <select id="dropdown" name="role" required>
+          <option disabled selected value>Select Current Role</option>
+          <option value="student">Student</option>
+          <option value="job">Full Time Job</option>
+  
+          <option value="preferNo">Prefer not to say</option>
+          <option value="other">Other</option>
+        </select>
+        <br>
+        <p class="boldText">Do you think the FCC survey form project was informative and helpful?</p>
+        <label>
+          <input name="whatdoyouthink" value="definitelyhelpful" type="radio" checked />Definitely Helpful</label>
+  
+        <label>
+          <input name="whatdoyouthink" value="somewhathelpful" type="radio" />Somewhat Helpful</label>
+  
+        <label>
+          <input name="whatdoyouthink" value="notatallhelpful" type="radio" />Not at all helpful</label>
+  
+        <p class="boldText"> What do you think could be different about the project? (Check all that apply)</p>
+  
+        <label>
+          <input name="thoughts" value="betterinstuctions" type="checkbox" /> Better Intructions
+        </label>
+  
+        <label>
+          <input name="thoughts" value="surveyideas" type="checkbox" /> Survey Ideas
+        </label>
+  
+        <label>
+          <input name="thoughts" value="lessrequirements" type="checkbox" /> Less Requirments
+        </label>
+  
+        <label>
+          <input name="thoughts" value="morerequirements" type="checkbox" /> More Requirements
+        </label>
+  
+        <p class="boldText"> Addition Comments or Suggestions?</p>
+  
+        <textarea name="comments" placeholder="Enter Comments or Suggestions Here..."></textarea>
+        <br>
+        <br>
+        <button type="submit" id="submit"> Submit </button>
+      </form>
+    </div>
+  </div>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
