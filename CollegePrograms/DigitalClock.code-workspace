@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../DigitalClock"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Sign-inForm"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "PracticeOfWebDevelopment"
+	}
+}

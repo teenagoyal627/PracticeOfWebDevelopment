@@ -1,0 +1,39 @@
+
+body{
+    text-emphasis-color:white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    color:black;
+    font-size: large;
+    /* background-clip: border-box; */
+}
+
+
+text-center
+{
+         text-align: center;
+}
+h1
+{
+    text-align:center;
+    /* color: aliceblue; */
+}
+h5
+{
+     color: red;
+}
+/* h4 
+{
+color:red ;
+} */
+a 
+{
+ background-color:blanchedalmond; 
+}
+button
+{
+    font-size:20px;
+
+}
